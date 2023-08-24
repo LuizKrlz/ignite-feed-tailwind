@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Ignite Feed - Rocketseat
 
-## Getting Started
+---
 
-First, run the development server:
+This is a project planned in a Rocketseat course.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## First step
+
+Clone this project
+
+```
+git clonse https://github.com/LuizKrlz/ignite-feed-tailwind.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+after this go to inside folder
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+cd ignite-feed-tailwind
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Install dependencies
 
-## Learn More
+This project use's [PNMP](https://pnpm.io/cli/run) to manangement dependencies.
+To install all dependecies, run the command:
 
-To learn more about Next.js, take a look at the following resources:
+```Shell
+pnpm i
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+after this we are apts to run the project, for this run the command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+pnpm run dev
+```
 
-## Deploy on Vercel
+This command execute the server in [Localhost](http://localhost:3000).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Tests
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The project's contains unit tests, for run all tests execute this command:
+
+```shell
+pnpm run test
+```
