@@ -22,6 +22,7 @@ const iconClass = tv({
       solid_green: ' text-white font-bold hover:text-greenLight',
       outline_green: 'text-greenLight hover:text-white',
       ghost: 'text-gray5 hover:text-gray7 active:text-greenLight',
+      iconButton: 'text-white hover:text-danger',
     },
   },
 })
