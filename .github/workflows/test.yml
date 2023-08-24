@@ -31,4 +31,5 @@ jobs:
           version: 8.4.0
       - name: pnpm ci, build and test
         run: |
+          pnpm i
           pnpm test
