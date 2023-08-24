@@ -1,5 +1,7 @@
 ### Ignite Feed - Rocketseat
 
+[![Tests](https://github.com/LuizKrlz/ignite-feed-tailwind/actions/workflows/test.yml/badge.svg)](https://github.com/LuizKrlz/ignite-feed-tailwind/actions/workflows/test.yml)
+
 ---
 
 This is a project planned in a Rocketseat course.
